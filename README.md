@@ -43,7 +43,7 @@ JMeter được sử dụng để cấu hình chi tiết số lượng người 
 | Loop Count                | `1`                                      |
 
 - Kết quả:
-![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/http1.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/http.png)
 ![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/view1.png)
 ![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/summary1.png)
 ![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/graph1.png)
