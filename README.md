@@ -1,6 +1,5 @@
 # BÁO CÁO KIỂM THỬ HIỆU SUẤT JMETER
 
-- **Tên Dự Án**: Load Testing of `fakestoreapi.com/products`  
 - **Ngày Kiểm Thử**: 01/07/2025  
 - **Người Kiểm Thử**: Bùi Ngọc Đức
 
@@ -43,10 +42,11 @@ JMeter được sử dụng để cấu hình chi tiết số lượng người 
 | Ramp-up Period (s)        | `1`                                      |
 | Loop Count                | `1`                                      |
 
-- **Kết quả:
-![image](https://github.com/user-attachments/assets/be5ecdcd-c904-4fe5-9a15-4ce57f091bfc)
-![image](https://github.com/user-attachments/assets/4c18be20-b583-4b55-b46f-4a6a24c7b49f)
-![image](https://github.com/user-attachments/assets/619bd167-afb4-48ad-ac52-be3ac1774e94)
+- Kết quả:
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/http1.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/view1.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/summary1.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/graph1.png)
 
 ### Kịch Bản Kiểm Thử Lần 2
 
@@ -55,16 +55,17 @@ JMeter được sử dụng để cấu hình chi tiết số lượng người 
 
 | Thông số cấu hình         | Giá trị                                  |
 |---------------------------|-------------------------------------------|
-| HTTP Request              | `https://fakestoreapi.com/products`      |
+| HTTP Request              | `http://localhost:8081/api/buses?page=1&limit=10`      |
 | Method                    | `GET`                                    |
 | Number of Threads (User)  | `1000`                                     |
 | Ramp-up Period (s)        | `5`                                      |
 | Loop Count                | `5`                                      |
 
-- **Kết quả:
-![image](https://github.com/user-attachments/assets/62f4798c-21d7-4976-b0a0-d6b875de8002)
-![image](https://github.com/user-attachments/assets/8a48bc01-eb93-403b-ac14-89e6f49cfcc1)
-![image](https://github.com/user-attachments/assets/07497621-29a9-4266-a32a-ae0cea3f5504)
+- Kết quả:
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/http.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/view.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/summary.png)
+![image](https://github.com/ducbn/jmeter-api-test/blob/main/image/graph.png)
 
 ## 5. Kết Luận
 
